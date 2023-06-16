@@ -7,7 +7,7 @@ request.setCharacterEncoding("utf-8");
 out.println("<h1>result</h1>");
 %>
 <%--빈 사용 --%>
-<jsp:useBean id="mb" class="com.tech.w01.MemberBean" /> 
+<jsp:useBean id="mb" class="com.tech.w01.MemberBean" />
 <%--빈에 데이터 저장 --%>
 <jsp:setProperty property="*" name="mb" />
 <%
@@ -17,7 +17,7 @@ dao.joinMember(mb);
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="utf-8">
 <title>Insert title here</title>
 <script>
 	window.onload = function() {
